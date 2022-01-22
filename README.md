@@ -1,2 +1,2 @@
 # nathantoannguyen.github.io
-Personal Portfolio Website
+My personal portfolio website, a slow work in progress.
