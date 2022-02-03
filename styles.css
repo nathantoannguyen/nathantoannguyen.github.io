@@ -1,0 +1,60 @@
+h1 {
+    color: grey;
+    font-size: 5em;
+    text-align: center;
+}
+
+#Nathan  {
+    height: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+
+.parent {
+    text-align: center;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+
+h3 {
+    color: grey;
+    text-align: center;
+}
+
+.parent > ul {
+    color: grey;
+    text-align: start;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 100px;
+    display: inline-block;
+    padding:10px;
+}
+
+.images-container {
+    display: -webkit-flex;
+    -webkit-box-flex: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: center;
+}
+
+
