@@ -1,0 +1,32 @@
+
+
+nav {
+    top: 0;
+    margin: 10px;
+    align-items: center;
+    min-height: 75px;
+    display: flex; 
+    justify-content: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+nav > header {
+    display: flex; 
+    flex-direction: row;
+}
+
+nav > header > li {
+    list-style: none;
+    padding-right: 50px;
+    font-size: 1.5rem;
+}
+
+#resume a{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+}
