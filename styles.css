@@ -1,7 +1,9 @@
 h1 {
     color: grey;
-    font-size: 5em;
     text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    padding-bottom: 30px;
 }
 
 #Nathan  {
@@ -16,6 +18,32 @@ h1 {
       background-color: black;
     }
   }
+
+
+nav {
+    top: 0;
+    margin: 10px;
+    align-items: center;
+    min-height: 75px;
+    display: flex; 
+    justify-content: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+nav > header {
+    display: flex; 
+    flex-direction: row;
+}
+
+nav > header > li {
+    list-style: none;
+    padding-right: 50px;
+    font-size: 1.5rem;
+}
 
 h2 {
     color: grey;
@@ -57,4 +85,31 @@ h3 {
     align-items: center;
 }
 
+#contact {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact i {
+    padding-right: 1rem;
+    font-weight: 100; 
+    color: black;
+}
+#contact i:hover {
+    color: gray;
+    transition: 0.4s;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-cream);
+    margin-top: 5rem;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    font-size: 1.1rem;
+}
 
