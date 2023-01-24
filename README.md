@@ -1,7 +1,30 @@
 # nathantoannguyen.github.io
 My personal portfolio website, a slow work in progress.
 
-References:
-https://javascript.plainenglish.io/how-to-create-a-kick-ass-portfolio-site-that-will-wow-your-next-employer-5e5e2009222 
+## Grading ##
+Based on the rubric, I believed I scored the following:
+* Readme is complete: 1/1
+* Includes basic HTML content: 3/3
+* Includes basic CSS styling: 3/3
+* Includes an advanced feature: 2/2 
+* Responsive layout: /3
+* Passes three validation checks: /1
+* Embracing the spirit of the assignment: 1/2
 
-https://pages.github.com/?(null)
+## List of HTML, CSS, and Advanced Features ## 
+### CSS ###
+
+### HTML ###
+
+### Navigation Bar ###
+* Navigation Bar
+* Columns 
+
+## Hours Taken To Complete Assignment: 23 ## 
+
+
+## References ##
+
+* https://www.w3schools.com/
+* https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag
+* https://stackoverflow.com/questions/32258016/how-to-move-image-with-css-html
