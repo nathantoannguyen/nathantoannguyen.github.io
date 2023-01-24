@@ -1,6 +1,11 @@
 # nathantoannguyen.github.io
 My personal portfolio website, a slow work in progress.
 
+[TODO]
+I have made a portfolio before starting this assignment, though
+it barely had any content and complex features, with no projects,
+navigation bar, columns, and much more.
+
 ## Grading ##
 Based on the rubric, I believed I scored the following:
 * Readme is complete: 1/1
@@ -21,7 +26,6 @@ Based on the rubric, I believed I scored the following:
 * Columns 
 
 ## Hours Taken To Complete Assignment: 23 ## 
-
 
 ## References ##
 
