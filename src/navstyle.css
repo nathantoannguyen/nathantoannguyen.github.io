@@ -14,12 +14,12 @@ nav a {
     color: var(--color-black);
 }
 
-nav > header {
+nav > ol {
     display: flex; 
     flex-direction: row;
 }
 
-nav > header > li {
+nav > ol > li {
     list-style: none;
     padding-right: 50px;
     font-size: 1.5rem;
