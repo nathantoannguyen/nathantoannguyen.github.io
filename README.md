@@ -32,3 +32,4 @@ Based on the rubric, I believed I scored the following:
 * https://www.w3schools.com/
 * https://stackoverflow.com/questions/6722467/how-do-i-remove-the-default-link-color-of-the-html-hyperlink-a-tag
 * https://stackoverflow.com/questions/32258016/how-to-move-image-with-css-html
+* https://stackoverflow.com/questions/25320356/can-i-have-my-github-pages-index-html-in-a-subfolder-of-the-repository
