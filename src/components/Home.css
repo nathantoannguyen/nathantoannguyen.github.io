@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+.home {
+    background-color: #E0E1DD; 
+}
+
+.home-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.land-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#land-image {
+    width: 50%; 
+    max-width: 250px; 
+    height: auto; 
+    animation-name : ponyo;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3s;
+}
+
+@keyframes ponyo {
+    from {transform: translateY(-20px);}
+    to {transform: translateY(20px);}
+}
+
+.land-text {
+    padding: 70px 0;
+    text-align: center;
+    margin-left: 50px;
+    color: #0D1B2A;
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.land-name {
+    max-width: 100%;
+    font-size: 450%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.typewriter-text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 150%;
+}
+
+p {
+    display: inline-flex;
+}
+
+.arrow {
+    border: solid black;
+    border-color: #0D1B2A;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+

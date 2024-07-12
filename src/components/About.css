@@ -1,0 +1,11 @@
+.about {
+    background-color: #778DA9;
+}
+
+.about-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
