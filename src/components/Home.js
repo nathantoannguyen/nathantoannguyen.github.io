@@ -35,12 +35,12 @@ function Home() {
                             </p>
                         </div>
                     </div>
-                    <a href='about' class='arrow'> </a>
+                    <a href='#about' class='arrow-down'> </a>
                 </Container>
             </div>
         </div>
     )
 
-}
+};
 
 export default Home;
