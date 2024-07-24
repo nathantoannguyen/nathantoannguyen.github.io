@@ -1,9 +1,14 @@
+import './Experience.css';
+import { Element } from 'react-scroll';
 
-
-function Experience() {
-    return <div>
-        Experience
-    </div>
+const Experience= () => {
+    return (
+        <Element id='experience'>
+            <div className='experience-section'>
+             Experience
+            </div>
+        </Element>
+    )
 }
 
 export default Experience;

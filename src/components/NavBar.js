@@ -9,7 +9,6 @@ const NavBar= () => {
       <Navbar expand="lg" className="nav">
         <Container>
           <Navbar.Brand 
-          href="#about"
           onClick={() => scroller.scrollTo('about', {
               smooth: true,
               offset: -100,
@@ -17,9 +16,27 @@ const NavBar= () => {
           })}>
             About
           </Navbar.Brand>
-          <Navbar.Brand href="#experience">Experience</Navbar.Brand>
-          <Navbar.Brand href="#projects">Projects</Navbar.Brand>
-          <Navbar.Brand href="#contact">Contact</Navbar.Brand>
+          <Navbar.Brand 
+            onClick={() => scroller.scrollTo('experience', {
+                smooth: true,
+                offset: -100,
+                duration: 500,
+            })}>
+          Experience</Navbar.Brand>
+          <Navbar.Brand 
+            onClick={() => scroller.scrollTo('projects', {
+              smooth: true,
+              offset: -100,
+              duration: 500,
+          })}>
+          Projects</Navbar.Brand>
+          <Navbar.Brand 
+            onClick={() => scroller.scrollTo('contact', {
+              smooth: true,
+              offset: -100,
+              duration: 500,
+          })}>
+          Contact</Navbar.Brand>
         </Container>
       </Navbar>
   );
