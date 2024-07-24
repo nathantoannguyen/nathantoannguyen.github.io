@@ -2,6 +2,7 @@ import './Home.css';
 
 import Container from 'react-bootstrap/Container';
 import Typewriter from 'typewriter-effect';
+import { scroller } from 'react-scroll';
 
 import landing_img from '../assets/images/landing_img.png';
 
@@ -35,7 +36,14 @@ function Home() {
                             </p>
                         </div>
                     </div>
-                    <a href='#about' class='arrow-down'> </a>
+                    <a 
+                    href='#about' 
+                    class='arrow-down'
+                    onClick={() => scroller.scrollTo('about', {
+                        smooth: true,
+                        offset: -100,
+                        duration: 500,
+                    })}> </a>
                 </Container>
             </div>
         </div>
