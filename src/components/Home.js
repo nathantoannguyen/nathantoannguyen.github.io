@@ -24,7 +24,7 @@ function Home() {
                                             "I'm Nathan.", 
                                             "I graduated from UC Irvine (zot zot zot).", 
                                             'I studied Informatics!',
-                                            "I enjoy learning and working with others.",
+                                            "I enjoy learning and working with others!",
                                             'I also enjoy working on my foodie list.',
                                             "I'm just a small fan of stars.",
                                             'Thanks for stopping by!',
