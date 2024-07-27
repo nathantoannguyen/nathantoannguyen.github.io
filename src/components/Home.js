@@ -6,7 +6,10 @@ import { scroller } from 'react-scroll';
 
 import landing_img from '../assets/images/landing_img.png';
 
-function Home() {
+const Home = () => {
+
+    
+
     return (
         <div className='home'>
             <div className='home-section'>
