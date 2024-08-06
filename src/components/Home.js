@@ -8,8 +8,6 @@ import landing_img from '../assets/images/landing_img.png';
 
 const Home = () => {
 
-    
-
     return (
         <div className='home'>
             <div className='home-section'>
