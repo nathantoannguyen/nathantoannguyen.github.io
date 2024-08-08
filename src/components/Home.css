@@ -46,13 +46,10 @@ img {
     color: #0D1B2A;
 }
 
-h1 {
+.land-name {
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
     font-style: normal;
-}
-
-.land-name {
     max-width: 100%;
     font-size: 450%;
     margin-top: 5%;

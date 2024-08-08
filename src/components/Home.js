@@ -7,7 +7,6 @@ import { scroller } from 'react-scroll';
 import landing_img from '../assets/images/landing_img.png';
 
 const Home = () => {
-
     return (
         <div className='home'>
             <div className='home-section'>
@@ -39,7 +38,7 @@ const Home = () => {
                     </div>
                     <a 
                     href='#about' 
-                    class='arrow-down'
+                    className='arrow-down'
                     onClick={() => scroller.scrollTo('about', {
                         smooth: true,
                         offset: -100,
