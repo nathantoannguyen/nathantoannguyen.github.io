@@ -18,14 +18,6 @@ const NavBar= () => {
           About
         </Navbar.Brand>
         <Navbar.Brand 
-          onClick={() => scroller.scrollTo('experience', {
-              smooth: true,
-              offset: -100,
-              duration: 500,
-          })}>
-        Experience
-        </Navbar.Brand>
-        <Navbar.Brand 
           onClick={() => scroller.scrollTo('projects', {
             smooth: true,
             offset: -100,
@@ -41,7 +33,9 @@ const NavBar= () => {
         })}>
         Contact
         </Navbar.Brand>
+        <Navbar.Brand >Resume</Navbar.Brand>
       </Navbar>
+      
     </Container>
   );
 }

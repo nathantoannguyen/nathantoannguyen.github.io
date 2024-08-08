@@ -19,8 +19,8 @@ const About= () => {
                     be a technical program manager.
                     </h1>
                     <h1 className='inner-about-text'>
-                    In my free time, I enjoy bouldering, trying out new restaurants and cafes, and 
-                    meeting new people!
+                    In my free time, I enjoy bouldering, trying out highly rated restaurants and cafes, 
+                    and meeting new people!
                     </h1>
              </div>
              <img src={nathan_img} id='nathan-img' alt='pic-of-me'/>
