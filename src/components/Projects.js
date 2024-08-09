@@ -5,7 +5,12 @@ const Projects= () => {
     return (
         <Element id='projects'>
             <div className='projects-section'>
-             Projects
+             <p>
+                Portfolio
+             </p>
+                <div className='projects-container'>
+
+                </div>
             </div>
         </Element>
     )

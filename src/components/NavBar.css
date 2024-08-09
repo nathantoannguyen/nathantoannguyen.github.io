@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
 .nav {
     display: flex;
     justify-content: flex-end;
+    background-color: #E0E1DD;
   }
+
+
+  
