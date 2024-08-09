@@ -4,8 +4,14 @@ import Container from 'react-bootstrap/Container';
 import './NavBar.css';
 
 import { scroller } from 'react-scroll';
+import { useEffect } from 'react';
 
 const NavBar= () => {
+
+  const ScrollComponent() {
+    const [scroll]
+  }
+
   return (
     <Container>
       <Navbar expand="lg" className="nav">
